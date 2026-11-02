@@ -46,3 +46,34 @@ footer {
   color: white;
   border-top: 5px solid #e9894a;
 }
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  margin: 20px;
+}
+
+#about {
+  grid-column: 1 / -1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
