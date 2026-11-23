@@ -13,9 +13,9 @@ A responsive portfolio website created for my Web Development class.
 
 I tested all three pages with WAVE after making my changes:
 
-- Home (`index.html`): ___ errors, ___ contrast errors, ___ alerts
-- Projects (`projects.html`): ___ errors, ___ contrast errors, ___ alerts
-- About/Contact (`about.html`): ___ errors, ___ contrast errors, ___ alerts
+- Home (`index.html`): __0_ errors, _0__ contrast errors, __0_ alerts
+- Projects (`projects.html`): _0__ errors, _0__ contrast errors, __0_ alerts
+- About/Contact (`about.html`): _0__ errors, __0_ contrast errors, __0_ alerts
 
 ## Gestalt principles
 
